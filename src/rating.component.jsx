@@ -1,5 +1,7 @@
+/* eslint-disable react/prop-types */
 import { useState, useCallback, useEffect } from 'react';
 import './rating.styles.css';
+import PropTypes from 'prop-types';
 
 const Rating = ({ maxRating = 5, onChange = () => {} }) => {
 	const [currentRating, setCurrentRating] = useState(0);
@@ -44,4 +46,8 @@ const Rating = ({ maxRating = 5, onChange = () => {} }) => {
 	);
 };
 
+Rating.prototype = {
+	maxRating: PropTypes.number,
+	onChange: PropTypes.func,
+};
 export default Rating;
