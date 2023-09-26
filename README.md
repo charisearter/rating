@@ -4,25 +4,25 @@
 
 # My steps
 
-[] Make core functionality first
+[X] Make core functionality first
 
-    [] Set placeholder for rating and render visually
+    [X] Set placeholder for rating and render visually
 
-    [] Be able to select rating placeholder
+    [X] Be able to select rating placeholder
 
-    [] style for better visibility
+    [X] style for better visibility
 
-    [] keep track of current rating state
+    [X] keep track of current rating state
 
-    [] set current rating state on click
+    [X] set current rating state on click
 
-    [] add css to show selection
+    [X] add css to show selection
 
-    [] add hover state for ratings
+    [X] add hover state for ratings
 
-    [] optimize to minimize rerenders
+    [X] optimize to minimize rerenders
 
-    [] add global state to App component allowing Rating component to be reusable
+    [X] add global state to App component allowing Rating component to be reusable (Item Rating)
 
 # Project was made using React + Vite
 
