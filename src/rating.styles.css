@@ -1,0 +1,12 @@
+.rating-container {
+	display: flex;
+}
+
+.rating {
+	font-size: 50px;
+}
+
+.rating.active {
+	color: goldenrod;
+}
+
